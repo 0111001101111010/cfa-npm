@@ -1,0 +1,9 @@
+#!/usr/bin/env node
+(function() {
+  var Codeforamerica;
+
+  Codeforamerica = require("../lib/codeforamerica");
+
+  new Codeforamerica;
+
+}).call(this);

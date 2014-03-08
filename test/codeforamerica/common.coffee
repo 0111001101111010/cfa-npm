@@ -1,6 +1,6 @@
-Common = require("../../lib/node-template/common")
+Common = require("../../lib/codeforamerica/common")
 
-describe 'NodeTemplate::Common', ->
+describe 'Codeforamerica::Common', ->
   describe '#defer', ->
     it 'should resolve', (done) ->
       fn = ->
